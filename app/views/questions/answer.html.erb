@@ -1,0 +1,8 @@
+<h1>Stupid Coach</h1>
+<p class="alert alert-secondary"> <%= params[:answer]  %><br><br>
+<em>-You</em></p>
+
+<p class="alert alert-warning"><strong><%= @answer %></strong><br><br>
+<em>-Your Coach:</em> </p>
+
+<%= link_to "Ask a new question!", ask_path %>
